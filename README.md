@@ -4,7 +4,7 @@ Landing page desenvolvida com HTML5 e CSS3 com foco em responsividade, organiza√
 
 ---
 
-Tecnologia utilizadas
+#Tecnologia utilizadas
 
 - HTML5
 - CSS3
