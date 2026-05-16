@@ -14,6 +14,8 @@ main{
 .container{
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
 }
 .container-titulo{
     max-width: 600px;
@@ -71,6 +73,33 @@ main{
 }
 /* Fim CSS Topo */
 
+@media (max-width: 768px){
+  .topo-links {
+    gap: 5px;
+  }
+  .topo-link{
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px){
+  .topo-link{
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px){
+  .topo-links{
+    gap: 0;
+  }
+  .topo-link{
+    padding: 10px 8px;
+    font-size: 11px;
+  }
+}
+
 /* Início CSS WhatsApp */
 .whatsapp{
     position: fixed;
@@ -118,3 +147,25 @@ footer{
     border-top: 3px solid #ffffff20;
 }
 /* Fim CSS Rodapé */
+
+@media (max-width: 768px){
+  footer {
+    padding: 20px 10px;
+  }
+  
+  footer p{
+    margin: 6px 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px){
+  footer {
+    padding: 15px 10px;
+  }
+  
+  footer p{
+    margin: 5px 0;
+    font-size: 12px;
+  }
+}
